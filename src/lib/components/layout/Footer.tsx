@@ -11,7 +11,7 @@ const Footer = () => {
           isExternal
           rel="noopener noreferrer"
         >
-          digitalkitchen.zone
+          digitalkitchenlabs.zone
         </Link>
       </Text>
     </Flex>
