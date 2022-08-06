@@ -1,16 +1,16 @@
-import { Grid, Heading, Text } from "@chakra-ui/react";
+import { Heading, Tag, VStack } from "@chakra-ui/react";
 
 const SomeText = () => {
   return (
-    <Grid textAlign="center">
-      <Heading as="h1" size="lg">
-        nextarter-chakra
+    <VStack h="full" spacing={2}>
+      <Heading as="h1" fontSize={{ base: "3xl", sm: "5xl" }}>
+        Hello Cosmos. 👋
       </Heading>
-
-      <Text fontSize="xs" color="gray.500">
-        This is a Next.js app with Chakra-UI and TypeScript setup.
-      </Text>
-    </Grid>
+      <Tag variant="subtle" colorScheme="teal" padding={4} borderRadius="xl">
+        We are Digital Kitchen Labs. We like cats, coding and crypto. Creators
+        of CoolCat!
+      </Tag>
+    </VStack>
   );
 };
 
