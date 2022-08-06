@@ -1,24 +1,24 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextarter-chakra",
-  titleTemplate: "%s | nextarter-chakra",
-  defaultTitle: "nextarter-chakra",
-  description: "Next.js + chakra-ui + TypeScript template",
-  canonical: "https://nextarter-chakra.sznm.dev",
+  title: "Digital Kitchen",
+  titleTemplate: "%s | Digital Kitchen",
+  defaultTitle: "Digital Kitchen",
+  description: "Recipes for a decentralised future",
+  canonical: "https://digitalkitchen.zone",
   openGraph: {
-    url: "https://nextarter-chakra.sznm.dev",
-    title: "nextarter-chakra",
-    description: "Next.js + chakra-ui + TypeScript template",
+    url: "https://digital-kitchen.zone",
+    title: "digital-kitchen",
+    description: "Recipes for a decentralised future",
     images: [
       {
-        url: "https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
-        alt: "nextarter-chakra.sznm.dev og-image",
+        url: "https://pbs.twimg.com/profile_banners/1554169351149854721/1659378435/600x200",
+        alt: "Digital Kitchen Brand Image",
       },
     ],
-    site_name: "nextarter-chakra",
+    site_name: "Ditigal Kitchen",
   },
   twitter: {
-    handle: "@sozonome",
+    handle: "@DgtlKitchen",
     cardType: "summary_large_image",
   },
 };

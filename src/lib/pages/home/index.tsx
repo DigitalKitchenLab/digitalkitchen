@@ -1,19 +1,26 @@
-import { Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import { NextSeo } from "next-seo";
+
+import CTASection from "lib/components/samples/CTASection";
+import SomeImage from "lib/components/samples/SomeImage";
 import SomeText from "lib/components/samples/SomeText";
 
 const Home = () => {
   return (
-    <Box
-      display="flex"
-      flexDirection={{ base: "column-reverse", md: "column" }}
+    <Flex
+      direction="column"
       alignItems="center"
-      minHeight="60vh"
-      gap={8}
+      justifyContent="center"
+      minHeight="70vh"
+      gap={4}
       mb={8}
       w="full"
     >
+      <NextSeo title="Home" />
       <SomeText />
-    </Box>
+      <SomeImage />
+      <CTASection />
+    </Flex>
   );
 };
 
