@@ -7,8 +7,8 @@ const SomeText = () => {
         Hello Cosmos. 👋
       </Heading>
       <Tag variant="subtle" colorScheme="teal" padding={4} borderRadius="xl">
-        We are Digital Kitchen Labs. We like cats, coding and crypto. Creators of
-        CoolCat!
+        We are Digital Kitchen Labs. We like cats, coding and crypto. Creators
+        of CoolCat!
       </Tag>
     </VStack>
   );
